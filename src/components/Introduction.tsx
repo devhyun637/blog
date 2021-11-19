@@ -6,8 +6,8 @@ const Background = styled.div`
   width: 100%;
   padding: 2rem;
 
-  background-color: #ff9d94;
-  color: #ffffff;
+  background-color: #f5bdbd;
+  color: #222222;
 `;
 
 const Wrapper = styled.div`
@@ -21,6 +21,7 @@ const Wrapper = styled.div`
 const SubTitle = styled.div`
   font-size: 20px;
   font-weight: 400;
+  color: #222222;
 `;
 
 const Title = styled.div`
