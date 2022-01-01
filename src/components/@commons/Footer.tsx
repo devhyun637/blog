@@ -10,16 +10,18 @@ const FooterWrapper = styled.div`
   transform: translateX(-50%);
   display: grid;
 
-  font-size: 15px;
+  font-size: 12px;
+  color: #595959;
   text-align: center;
   line-height: 1.5;
 `;
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <FooterWrapper>
       Thank You for Visiting My Blog, Have a Good Day 😆
-      <br />© 2021 Developer Eunhyun, Powered By Gatsby.
+      <br />© {year} Developer Eunhyun, Powered By Gatsby.
     </FooterWrapper>
   );
 };
