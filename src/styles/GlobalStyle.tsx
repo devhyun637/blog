@@ -4,8 +4,7 @@ import { Global, css } from "@emotion/react";
 const defaultStyle = css`
   @font-face {
     font-family: "Pretendard-Regular";
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
-      format("woff");
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
   }
 
   * {
@@ -19,7 +18,6 @@ const defaultStyle = css`
   body,
   #___gatsby {
     width: 100%;
-    height: 100%;
   }
 
   a,
