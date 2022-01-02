@@ -11,22 +11,24 @@ const Background = styled.div`
 `;
 
 const Wrapper = styled.div`
+  width: 860px;
+  max-width: 1080px;
   margin: 0 auto;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
 `;
 
 const SubTitle = styled.div`
+  margin-left: 30px;
   font-size: 20px;
   font-weight: 400;
   color: #222222;
 `;
 
 const Title = styled.div`
-  margin-top: 5px;
-  margin-bottom: 45px;
+  margin: 5px 30px 45px;
 
   font-size: 30px;
   font-weight: 700;
@@ -38,7 +40,7 @@ const Introduction = () => {
       <Wrapper>
         <div>
           <SubTitle>은현초 개발블로그</SubTitle>
-          <Title>머릿속에 떠다니는 생각과 지식을 정리합니다.</Title>
+          <Title>머릿속에 떠다니는 생각을 정리합니다.</Title>
         </div>
 
         <ProfileImage />
